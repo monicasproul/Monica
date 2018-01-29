@@ -1,0 +1,122 @@
+html, body {
+  height: 100%;
+  width: 100%;
+ 
+}
+
+body {
+
+ background-image: url("bg3.png");
+		background-repeat: no-repeat;
+	background-position: top right;
+	 font-family: 'Arial', sans-serif; 
+	 background-size: 100% 150%;
+ text-align: center;
+ 
+}
+
+.container {
+	margin: 2% 10% 2% 10%;
+	width: 80%;
+	height: 100%;
+	text-align: center;
+	color: #00492B;
+	
+	
+}
+.header {
+	margin: 0 0 0 10%;
+	width: 80%;
+	height: 10%;
+	text-align: center;
+	
+}
+.header p{
+	color: #900025;
+	font-weight: 600;
+  	font-size: 7vh;
+  	margin: 0 0 0 0;
+  	text-decoration: overline underline;
+  
+}
+.header a{
+	margin: 0;
+	color: black;
+	font-weight: 200;
+  	font-size: 2vh;
+  	text-decoration: underline;
+  
+}
+.relwork {
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 3vh;
+  	text-align:center;
+}
+.info {
+	margin: 0 0 0 10%;
+	width: 80%;
+	height: 80%;
+	text-align: center;
+}
+.IS1 {
+	color: #586248;
+	font-weight: 600;
+  	font-size: 2.5vh;
+}
+.IS2 {
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 2vh;
+}
+.IS3 {
+	color: #586248;
+	font-weight: 300;
+  	font-size: 2vh;
+  	
+}
+
+.Hack1 {
+	color: #586248;
+	font-weight: 600;
+  	font-size: 2.5vh;
+}
+.Hack2 {
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 2vh;
+}
+.Hack3 {
+	color: #586248;
+	font-weight: 300;
+  	font-size: 2vh;
+  	
+}
+.Math1 {
+	color: #586248;
+	font-weight: 600;
+  	font-size: 2.5vh;
+}
+.Math2 {
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 2vh;
+}
+.Math3 {
+	color: #586248;
+	font-weight: 300;
+  	font-size: 2vh;
+  	
+}
+.skills{
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 3vh;
+  	text-align:center;
+}
+.Skill1 {
+	color: #586248;
+	font-weight: 600;
+  	font-size: 2.5vh;
+  	text-align:center;
+}

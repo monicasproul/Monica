@@ -1,0 +1,82 @@
+html, body {
+  height: 100%;
+  width: 100%;
+ 
+}
+
+body {
+
+ background-image: url("bg3.png");
+		background-repeat: no-repeat;
+	background-position: top right;
+	 font-family: 'Arial', sans-serif; 
+	 background-size: 100% 150%;
+ text-align: center;
+ 
+}
+
+.container {
+	margin: 2% 10% 2% 10%;
+	width: 80%;
+	height: 100%;
+	text-align: center;
+	color: #00492B;
+	
+	
+}
+.header {
+	margin: 0 0 0 10%;
+	width: 80%;
+	height: 10%;
+	text-align: center;
+	
+}
+.header p{
+	color: #900025;
+	font-weight: 600;
+  	font-size: 7vh;
+  	margin: 0 0 0 0;
+  	text-decoration: overline underline;
+  
+}
+.contact{
+	margin: 0 0 0 10%;
+	width: 80%;
+	height: 40%;
+	text-align: center;
+}
+img {
+    border-radius: 10px;
+    height: 40%;
+    width: 20%;
+}
+.email {
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 4vh;
+  	margin: 5% 0 5% 0;
+}
+.linked {
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 4vh;
+  	
+}
+.Thanks {
+	margin: 20% 0 0 10%;
+	width: 80%;
+	height: 20%;
+	text-align: center;
+}
+.hwd {
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 4vh;
+  	margin: 0 0 0 0;
+}
+.ty {
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 4vh;
+  	margin: 0 0 0 0;
+}
