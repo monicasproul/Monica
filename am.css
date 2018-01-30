@@ -17,18 +17,29 @@ body {
 	 background-size: 100% 150%;
 
 	}
-	.header {
-	margin: 0 5% 3% 10%;
+
+.container1{
 	width: 80%;
-	height: 5%;
+	height: 1%;
+	margin: 0 5% 0 10%;
+	text-align: center;
+	font-size: 2vh;
+	background-color: #349000;
+	
+}
+	.header {
+	
+	margin: 0 5% 2% 10%;
+	width: 80%;
+	height: 4%;
 	text-align: center;
 	
 }
 .header p{
+	margin:2% 0 0 0;
 	color: #900025;
 	font-weight: 600;
   	font-size: 5vh;
-  
   	text-decoration: overline underline;
   
 }
