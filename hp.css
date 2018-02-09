@@ -1,49 +1,64 @@
+@media screen and (min-width:550px) {
 html, body {
   height: 100%;
- 
-
+ `display: flex;
+scroll-behavior: smooth;
 
 }
 body {
   font-family: 'Lato', sans-serif; 
-  background-image: url("mainBackground2.png") ;
+  
+}
+.return{
+	height: 200px;
+	width: 40px;
+	position: fixed;
+	left:0;
+	bottom:0;
+	backgroun: Black;
+}
+.return img{
+	height: 22%;
+	width: 100%;
+}
+
+.header{
+	height: 100%;
+	width: 100%;
+	background-image: url("mainBackground2.png") ;
   background-position: top right;
 	background-size: cover;
 	background-repeat:   no-repeat;
+	
 }
-
-.header {
-	background: white;
-	opacity: .50;
-	height: 100%;
+.headercontainer {
+	background: rgba(255, 255, 255, 0.5);
+	height: 50%;
 	width: 50%;
-	left: 0;
-bottom: 0;
-position: absolute;
+	float:left;
 text-align: center;
 
-	
-
-   
+ 
 }
+
 .greeting {
 
-margin: 50% 0 0 0;
+	margin: 20% 0 0 0;
   font-weight: 300;
   font-size: 5vh;
-  color: Black;
+  color: #404040;
   
 }
 .myName {
 
   font-weight: 500;
   font-size: 7vw;
-  color: Black;
+  color: #404040;
   	
 }
 
 nav {
-	
+
 	font-size: 3.5vh;
 }
 
@@ -58,5 +73,1098 @@ padding:0;
 }
 
 nav a {
-  color: black;
+  color: #404040;
 }
+
+.aboutPage{
+	height: 100%;
+	width: 100%;
+	float:left;
+	background: rgba(0, 73, 43, 0.1);
+	
+	
+	
+}
+.aPheader{
+	margin:0;
+	height: 5%;
+	width: 100%;
+	text-align: center;
+	color: #900025;
+	font-weight: 600;
+  	font-size: 5vh;
+  	
+}
+img {
+    border-radius: 40px;
+    
+}
+	
+
+.container{
+	
+	width: 100%;
+	height: 95%;
+	
+}
+
+.first {
+	margin-left:auto;
+  margin-right:auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+  max-width: 100vh;
+  height: 30%;
+  text-align: left;
+  
+	
+}
+
+.first-L {
+	float: left;
+	width: 40%;
+	height: 100%;
+    overflow: hidden;
+    animation:movepic3 25s;
+	position:relative;
+	background-size:100% 100%;
+	transtion:2s ease;
+	transtion-delay:3s;
+	border-radius: 40px;
+	animation-iteration-count: infinite;
+}
+@keyframes movepic3 {
+0% { background-image:url("IMG_0747.jpg");  }
+50%{background-image:url("grad.jpg");}
+100%{background-image:url("IMG_0740.jpg");}
+
+}
+
+.first-R {
+	float: right;
+	width: 60%;
+	height: 100%;
+}
+
+.UofA {
+	margin: 3% 0 1% 4%;
+	font-weight: 300;
+  font-size: 3vh;
+  color: #00492B;
+}
+.UofA1 {
+	margin: 0 0 1% 4%;
+	font-weight: 600;
+  font-size: 2vh;
+  color: #586248
+  ;
+}
+.UofA2 {
+	margin: 0 0 1% 4%;
+	font-weight: 200;
+  font-size: 2vh;
+  
+  color: #4d4d4d;
+}
+
+.second {
+		
+	 max-width: 100vh;
+  height: 30%;
+  text-align: left;
+  	margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 20px;
+}
+
+.second-L {
+	float: left;
+	width: 40%;
+	height: 100%;
+    overflow: hidden;
+    animation:movepic 25s;
+	position:relative;
+	background-size:100% 100%;
+	transtion:2s ease;
+	transtion-delay:3s;
+	border-radius: 40px;
+	animation-iteration-count: infinite;
+}
+
+.second-R {
+	float: right;
+	
+	width: 60%;
+	height: 100%;
+}
+
+.ThetaTau {
+	margin: 3% 0 1% 4%;
+	font-weight: 300;
+  font-size: 3vh;
+  color: #00492B;
+}
+.ThetaTau1 {
+	margin: 0 0 1% 4%;
+	font-weight: 600;
+  font-size: 2vh;
+  color: #586248;
+}
+.ttabout {
+	margin: 0 0 1% 4%;
+	font-weight: 200;
+  font-size: 2vh;
+  
+  color: #4d4d4d;
+}
+@keyframes movepic {
+0% { background-image:url("tt1.jpg");  }
+50%{background-image:url("IMG_0791.jpg");}
+100%{background-image:url("2ndPlace.JPG");}
+
+}
+
+.third {
+	
+		margin-left:auto;
+  margin-right:auto;
+  
+   max-width: 100vh;
+  height: 30%;
+  text-align: left;
+  
+	
+}
+
+.third-L {
+	float: left;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+    animation:movepic2 25s;
+	position:relative;
+	background-size:auto 300px;
+	
+	background-position:center;
+	transtion:2s ease;
+	transtion-delay:3s;
+	border-radius: 40px;
+	animation-iteration-count: infinite;
+}
+
+.third-R {
+	float: right;
+	width: 60%;
+	height: 100%;
+}
+
+.Hackathon {
+	margin: 3% 0 1% 4%;
+	font-weight: 300;
+  font-size: 3vh;
+  color: #00492B;
+}
+.Hackathon1 {
+	margin: 0 0 1% 4%;
+	font-weight: 600;
+  font-size: 2vh;
+  color: #586248;
+}
+.hacksum {
+	margin: 0 0 1% 4%;
+	font-weight: 200;
+  font-size: 2vh;
+  
+  color: #4d4d4d;
+}
+
+@keyframes movepic2 {
+0% { background-image:url("hack3.jpg");  }
+50%{background-image:url("hack2.jpg");}
+100%{background-image:url("hack1.jpg");}
+
+}
+
+.projects{
+	height: 100%;
+	width: 100%;
+	float:left;
+	
+}
+.projTitle{
+	margin:0;
+	height: 5%;
+	width: 100%;
+	text-align: center;
+	color: #900025;
+	font-weight: 600;
+  	font-size: 5vh;
+  	
+}
+
+.one {
+	margin-left:auto;
+  margin-right:auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+ 	max-width: 100vh;
+  	height: 20%;
+  	text-align: center;
+}
+
+.one-L {
+	
+	float: left;
+	width: 20%;
+	height: 100%;
+	
+}
+.one-R {
+	
+	float: right;
+	width: 75%;
+	height: 100%;
+}
+.poly1 {
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 4vh;
+  	margin: 0 5% 0 0;
+}
+.poly2 {
+	color: #586248;
+	margin: 0 5% 0 0;
+}
+.two {
+	margin-left:auto;
+  margin-right:auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+ 	max-width: 100vh;
+  	height: 20%;
+  	text-align: center;
+}
+.two-L {
+	
+	float: left;
+	width: 75%;
+	height: 100%;
+}
+.two-R {
+	float: left;
+	width: 20%;
+	height: 100%;
+
+}
+.tipsy1 {
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 4vh;
+  	margin: 0 5% 0 5%;
+}
+.tipsy2 {
+	color: #586248;
+	margin: 0 5% 0 5%;
+}
+.three {
+	margin-left:auto;
+  margin-right:auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+ 	max-width: 100vh;
+  	height: 20%;
+  	text-align: center;
+}
+
+.three-L {
+	
+	float: left;
+	width: 20%;
+	height: 100%;
+	
+}
+.three-R {
+	
+	float: right;
+	width: 75%;
+	height: 100%;
+}
+.risk1 {
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 4vh;
+  	margin: 0 5% 0 0;
+}
+.risk2 {
+	color: #586248;
+	margin: 0 5% 0 0;
+}
+.four {
+	
+	margin-left:auto;
+  margin-right:auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+ 	max-width: 100vh;
+  	height: 20%;
+  	text-align: center;
+}
+.four-L {
+	
+	float: left;
+	width: 75%;
+	height: 100%;
+}
+.four-R {
+	float: left;
+	width: 20%;
+	height: 100%;
+
+}
+.hwatch1 {
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 4vh;
+  	margin: 0 5% 0 5%;
+}
+.hwatch2 {
+	color: #586248;
+	margin: 0 5% 0 5%;
+}
+
+.resume{
+	height: 100%;
+	width: 100%;
+	float:left;
+	background: rgba(0, 73, 43, 0.1);
+	text-align: center;
+}
+.resume a{
+	margin: 0;
+	color: black;
+	font-weight: 300;
+  	font-size: 2vh;
+  	text-decoration: underline;
+  	
+}
+.rtitle{
+	margin:0 0 20px 0;
+	height: 5%;
+	width: 100%;
+	text-align: center;
+	color: #900025;
+	font-weight: 600;
+  	font-size: 5vh;
+  	
+}
+.relwork {
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 3vh;
+  	text-align:center;
+}
+.info {
+	margin: 0 0 0 10%;
+	width: 80%;
+	height: 80%;
+	text-align: center;
+}
+.IS1 {
+	color: #586248;
+	font-weight: 600;
+  	font-size: 2.5vh;
+}
+.IS2 {
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 2vh;
+}
+.IS3 {
+	color: #586248;
+	font-weight: 300;
+  	font-size: 2vh;
+  	
+}
+
+.Hack1 {
+	color: #586248;
+	font-weight: 600;
+  	font-size: 2.5vh;
+}
+.Hack2 {
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 2vh;
+}
+.Hack3 {
+	color: #586248;
+	font-weight: 300;
+  	font-size: 2vh;
+  	
+}
+.Math1 {
+	color: #586248;
+	font-weight: 600;
+  	font-size: 2.5vh;
+}
+.Math2 {
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 2vh;
+}
+.Math3 {
+	color: #586248;
+	font-weight: 300;
+  	font-size: 2vh;
+  	
+}
+.skills{
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 3vh;
+  	text-align:center;
+}
+.Skill1 {
+	color: #586248;
+	font-weight: 600;
+  	font-size: 2.5vh;
+  	text-align:center;
+  	
+}
+.contact{
+	height: 40%;
+	width: 100%;
+	float:left;
+	
+	text-align: center;
+}
+.ctitle{
+	
+	height: 10%;
+	width: 100%;
+	text-align: center;
+	color: #900025;
+	font-weight: 600;
+  	font-size: 5vh;
+}
+.cont{
+	margin: 0 0 0 10%;
+	width: 80%;
+	height: 25%;
+	text-align: center;
+}
+img {
+    border-radius: 10px;
+    height: 100%;
+    width: 10%;
+}
+
+.Thanks {
+	margin: 0 0 0 10%;
+	width: 80%;
+	height: 30%;
+	text-align: center;
+}
+.hwd {
+	margin:0;
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 4vh;
+  
+}
+.ty {
+	margin:0;
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 4vh;
+
+}
+}
+@media screen and (max-width:550px) {
+	html, body {
+  height: 100%;
+ `display: flex;
+scroll-behavior: smooth;
+
+}
+body {
+  font-family: 'Lato', sans-serif; 
+  
+}
+.return{
+	height: 200px;
+	width: 40px;
+	position: fixed;
+	left:0;
+	bottom:0;
+	backgroun: Black;
+}
+.return img{
+	height: 22%;
+	width: 100%;
+}
+	
+.header{
+	height: 100%;
+	width: 100%;
+	background-image: url("mainBackground2.png") ;
+  background-position: top right;
+	background-size: cover;
+	background-repeat:   no-repeat;
+	
+	
+}
+.temphead{
+	height: 50%;
+	width: 100%;
+}
+.headercontainer {
+	
+	background: rgba(255, 255, 255, 0.5);
+	height: 50%;
+	width: 100%;
+	
+text-align: center;
+
+ 
+}
+
+.greeting {
+
+	
+  font-weight: 300;
+  font-size: 5vh;
+  color: #404040;
+  
+}
+.myName {
+
+  font-weight: 500;
+  font-size: 7vw;
+  color: #404040;
+  	
+}
+
+nav {
+
+	font-size: 3.5vh;
+}
+
+li {
+  margin: 0 0 0 1%;
+  display: inline;
+}
+
+nav ul {
+margin:0;
+padding:0;
+}
+
+nav a {
+  color: #404040;
+}	
+	
+.aboutPage{
+	height: 200%;
+	width: 100%;
+	float:left;
+	background: rgba(0, 73, 43, 0.1);
+	
+	
+	
+}
+.aPheader{
+	margin:0;
+	height: 5%;
+	width: 100%;
+	text-align: center;
+	color: #900025;
+	font-weight: 600;
+  	font-size: 5vh;
+  	
+}
+img {
+    border-radius: 40px;
+    
+}
+	
+
+.container{
+	
+	width: 100%;
+	height: 95%;
+	
+}
+
+.first {
+	margin-left:auto;
+  margin-right:auto;
+	
+  max-width: 100%;
+  height: 33%;
+  text-align: center;
+  
+	
+}
+
+.first-L {
+	margin-left:auto;
+  margin-right:auto;
+	width: 65%;
+	height: 50%;
+    overflow: hidden;
+    animation:movepic3 25s;
+	position:relative;
+	background-size:100% 100%;
+	transtion:2s ease;
+	transtion-delay:3s;
+	border-radius: 40px;
+	animation-iteration-count: infinite;
+}
+@keyframes movepic3 {
+0% { background-image:url("IMG_0747.jpg");  }
+50%{background-image:url("grad.jpg");}
+100%{background-image:url("IMG_0740.jpg");}
+
+}
+
+.first-R {
+	margin-left:auto;
+  margin-right:auto;
+	
+	width: 100%;
+	height: 25%;
+}
+
+.UofA {
+	margin: 3% 0 1% 4%;
+	font-weight: 300;
+  font-size: 3vh;
+  color: #00492B;
+}
+.UofA1 {
+	margin: 0 0 1% 4%;
+	font-weight: 600;
+  font-size: 2vh;
+  color: #586248
+  ;
+}
+.UofA2 {
+	margin: 0 0 1% 4%;
+	font-weight: 200;
+  font-size: 2vh;
+  
+  color: #4d4d4d;
+}
+
+.second {
+		
+	margin-left:auto;
+  margin-right:auto;
+	
+  max-width: 100%;
+  height: 33%;
+  text-align: center;
+}
+
+.second-L {
+	margin-left:auto;
+  margin-right:auto;
+	width: 65%;
+	height: 50%;
+    overflow: hidden;
+    animation:movepic 25s;
+	position:relative;
+	background-size:100% 100%;
+	transtion:2s ease;
+	transtion-delay:3s;
+	border-radius: 40px;
+	animation-iteration-count: infinite;
+}
+
+.second-R {
+	margin-left:auto;
+  margin-right:auto;
+	
+	width: 100%;
+	height: 25%;
+}
+
+.ThetaTau {
+	margin: 3% 0 1% 4%;
+	font-weight: 300;
+  font-size: 3vh;
+  color: #00492B;
+}
+.ThetaTau1 {
+	margin: 0 0 1% 4%;
+	font-weight: 600;
+  font-size: 2vh;
+  color: #586248;
+}
+.ttabout {
+	margin: 0 0 1% 4%;
+	font-weight: 200;
+  font-size: 2vh;
+  
+  color: #4d4d4d;
+}
+@keyframes movepic {
+0% { background-image:url("tt1.jpg");  }
+50%{background-image:url("IMG_0791.jpg");}
+100%{background-image:url("2ndPlace.JPG");}
+
+}
+
+.third {
+	
+		margin-left:auto;
+  margin-right:auto;
+
+  max-width: 100%;
+  height: 33%;
+  text-align: center;
+  
+	
+}
+
+.third-L {
+	margin-left:auto;
+  margin-right:auto;
+	width: 65%;
+	height: 50%;
+	overflow: hidden;
+    animation:movepic2 25s;
+	position:relative;
+	background-size:auto 300px;
+	
+	background-position:center;
+	transtion:2s ease;
+	transtion-delay:3s;
+	border-radius: 40px;
+	animation-iteration-count: infinite;
+}
+
+.third-R {
+	margin-left:auto;
+  margin-right:auto;
+	
+	width: 100%;
+	height: 25%;
+}
+
+.Hackathon {
+	margin: 3% 0 1% 4%;
+	font-weight: 300;
+  font-size: 3vh;
+  color: #00492B;
+}
+.Hackathon1 {
+	margin: 0 0 1% 4%;
+	font-weight: 600;
+  font-size: 2vh;
+  color: #586248;
+}
+.hacksum {
+	margin: 0 0 1% 4%;
+	font-weight: 200;
+  font-size: 2vh;
+  
+  color: #4d4d4d;
+}
+
+@keyframes movepic2 {
+0% { background-image:url("hack3.jpg");  }
+50%{background-image:url("hack2.jpg");}
+100%{background-image:url("hack1.jpg");}
+
+}	
+
+.projects{
+	height: 200%;
+	width: 100%;
+	float:left;
+	
+}
+.projTitle{
+	margin:0 0 4% 0;
+	height: 2%;
+	width: 100%;
+	text-align: center;
+	color: #900025;
+	font-weight: 600;
+  	font-size: 5vh;
+  	
+}
+
+.one {
+	margin-left:auto;
+  margin-right:auto;
+
+  max-width: 100%;
+  height: 24%;
+  text-align: center;
+}
+
+.one-L {
+	
+	margin-left:auto;
+  margin-right:auto;
+	width: 50%;
+	height: 50%;
+	
+}
+.one-R {
+	
+	
+	width: 100%;
+	height: 50%;
+}
+.poly1 {
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 4vh;
+}
+.poly2 {
+	color: #586248;
+}
+.two {
+	margin-left:auto;
+  margin-right:auto;
+
+  max-width: 100%;
+  height: 24%;
+  text-align: center;
+}
+.two-L {
+	
+	width: 100%;
+	height: 50%;
+}
+.two-R {
+	margin-left:auto;
+  margin-right:auto;
+	width: 50%;
+	height: 50%;
+
+}
+.tipsy1 {
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 4vh;
+}
+.tipsy2 {
+	color: #586248;
+}
+.three {
+	margin-left:auto;
+  margin-right:auto;
+
+  max-width: 100%;
+  height: 24%;
+  text-align: center;
+}
+
+.three-L {
+	
+	margin-left:auto;
+  margin-right:auto;
+	width: 50%;
+	height: 50%;
+	
+}
+.three-R {
+	
+	width: 100%;
+	height: 50%;
+}
+.risk1 {
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 4vh;
+  	
+}
+.risk2 {
+	color: #586248;
+	
+}
+.four {
+	
+	margin-left:auto;
+  margin-right:auto;
+
+  max-width: 100%;
+  height: 24%;
+  text-align: center;
+}
+.four-L {
+	
+	width: 100%;
+	height: 50%;
+}
+.four-R {
+	margin-left:auto;
+  margin-right:auto;
+	width: 50%;
+	height: 50%;
+
+}
+.hwatch1 {
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 4vh;
+  	
+}
+.hwatch2 {
+	color: #586248;
+	
+}
+
+.resume{
+	height: 150%;
+	width: 100%;
+	float:left;
+	background: rgba(0, 73, 43, 0.1);
+	text-align: center;
+}
+.resume a{
+	margin: 0;
+	color: black;
+	font-weight: 300;
+  	font-size: 2vh;
+  	text-decoration: underline;
+  	
+}
+.rtitle{
+	margin:0 0 20px 0;
+	height: 5%;
+	width: 100%;
+	text-align: center;
+	color: #900025;
+	font-weight: 600;
+  	font-size: 5vh;
+  	
+}
+.relwork {
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 3vh;
+  	text-align:center;
+}
+.info {
+	margin: 0 0 0 10%;
+	width: 80%;
+	height: 80%;
+	text-align: center;
+}
+.IS1 {
+	color: #586248;
+	font-weight: 600;
+  	font-size: 2.5vh;
+}
+.IS2 {
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 2vh;
+}
+.IS3 {
+	color: #586248;
+	font-weight: 300;
+  	font-size: 2vh;
+  	
+}
+
+.Hack1 {
+	color: #586248;
+	font-weight: 600;
+  	font-size: 2.5vh;
+}
+.Hack2 {
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 2vh;
+}
+.Hack3 {
+	color: #586248;
+	font-weight: 300;
+  	font-size: 2vh;
+  	
+}
+.Math1 {
+	color: #586248;
+	font-weight: 600;
+  	font-size: 2.5vh;
+}
+.Math2 {
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 2vh;
+}
+.Math3 {
+	color: #586248;
+	font-weight: 300;
+  	font-size: 2vh;
+  	
+}
+.skills{
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 3vh;
+  	text-align:center;
+}
+.Skill1 {
+	color: #586248;
+	font-weight: 600;
+  	font-size: 2.5vh;
+  	text-align:center;
+  	
+}
+.contact{
+	height: 40%;
+	width: 100%;
+	float:left;
+	
+	text-align: center;
+}
+.ctitle{
+	
+	height: 10%;
+	width: 100%;
+	text-align: center;
+	color: #900025;
+	font-weight: 600;
+  	font-size: 5vh;
+}
+.cont{
+	margin: 0 0 0 10%;
+	width: 80%;
+	height: 25%;
+	text-align: center;
+}
+img {
+    border-radius: 10px;
+    height: 100%;
+    width: 25%;
+}
+
+.Thanks {
+	margin: 0 0 0 10%;
+	width: 80%;
+	height: 30%;
+	text-align: center;
+}
+.hwd {
+	margin:0;
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 4vh;
+  
+}
+.ty {
+	margin:0;
+	color: #00492B;
+	font-weight: 600;
+  	font-size: 4vh;
+
+}
+	}
