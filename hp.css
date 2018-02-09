@@ -1,4 +1,4 @@
-@media screen and (min-width:415px) {
+@media screen and (min-width:600px) {
 html, body {
   height: 100%;
  `display: flex;
@@ -580,7 +580,7 @@ img {
 
 }
 }
-@media screen and (max-width:414px) {
+@media screen and (max-width:599px) {
 	html, body {
   height: 100%;
  `display: flex;
