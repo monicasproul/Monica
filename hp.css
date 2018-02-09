@@ -751,7 +751,7 @@ img {
 }
 .UofA2 {
 	margin: 0 0 1% 4%;
-	font-weight: 200;
+	font-weight: 400;
   font-size: 2vh;
   
   color: #4d4d4d;
@@ -804,7 +804,7 @@ img {
 }
 .ttabout {
 	margin: 0 0 1% 4%;
-	font-weight: 200;
+	font-weight: 400;
   font-size: 2vh;
   
   color: #4d4d4d;
@@ -867,7 +867,7 @@ img {
 }
 .hacksum {
 	margin: 0 0 1% 4%;
-	font-weight: 200;
+	font-weight: 400;
   font-size: 2vh;
   
   color: #4d4d4d;
@@ -1020,7 +1020,7 @@ img {
 }
 
 .resume{
-	height: 125%;
+	height: 150%;
 	width: 100%;
 	float:left;
 	background: rgba(0, 73, 43, 0.1);
